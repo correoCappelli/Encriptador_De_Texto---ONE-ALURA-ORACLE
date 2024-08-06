@@ -1,0 +1,616 @@
+/* Indice de Navegacion
+
+@media (max-width: 1200px) */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+/* encriptador desktop 1 */
+
+/* <svg width="32" height="48" viewBox="0 0 32 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.3958 23.6529C23.3524 23.9311 23.2466 24.1959 23.0863 24.4275C22.926 24.659 22.7154 24.8512 22.4703 24.9898C21.9766 25.3086 21.5447 25.468 21.1077 25.6274C20.177 25.9488 19.1974 26.2702 18.1613 26.643C17.0687 27.0157 16.0891 27.3885 15.215 27.6585C14.1249 28.0313 13.0888 28.3526 12.1041 28.7254C11.3633 29.0425 10.6674 29.4556 10.0345 29.9544C9.44584 30.4877 8.93212 31.0983 8.50734 31.7695C8.07027 32.515 7.79518 33.4766 7.79518 34.5975C7.79518 36.842 8.34022 38.5491 9.43289 39.6161C10.523 40.7396 12.5438 41.2718 15.5389 41.2718C18.5933 41.2718 20.6655 40.6856 21.7607 39.5107C22.8482 38.3357 23.3932 36.6826 23.3932 34.5487V23.6529H23.3958ZM15.5415 0C20.8891 0 24.815 1.01553 27.3217 3.09802C29.831 5.12908 31.0856 7.74119 31.0856 10.8366V37.2148C31.0856 38.2817 30.8696 39.4567 30.4891 40.737C30.1035 42.0225 29.3425 43.1949 28.1418 44.2592C26.9977 45.3313 25.4166 46.2389 23.3984 46.933C21.3802 47.6272 18.7629 48 15.5441 48C12.3304 48 9.70798 47.6272 7.69234 46.933C5.6767 46.2389 4.09298 45.3313 2.9489 44.2592C1.8846 43.3001 1.07834 42.089 0.604178 40.737C0.218532 39.4592 0 38.2843 0 37.2174V33.001C0 30.7565 0.599036 28.674 1.79968 26.8563C3.00032 24.9898 4.68945 23.7095 6.8722 22.9073C7.96229 22.5345 9.21693 22.1618 10.6335 21.681C12.0527 21.1976 13.3588 20.7169 14.6699 20.2927C15.9811 19.8633 17.1252 19.434 18.1048 19.0586C18.6959 18.8221 19.2963 18.6094 19.9044 18.421L20.8866 17.9402C21.2722 17.7268 21.6501 17.4055 22.0332 16.9787C22.4137 16.5545 22.7402 16.0737 23.0153 15.5389C23.306 14.9599 23.4557 14.3203 23.4524 13.6724V11.9627C23.4564 11.3361 23.3249 10.716 23.0667 10.145C22.8508 9.5023 22.4137 8.91612 21.8147 8.38393C21.2156 7.84917 20.3955 7.42239 19.416 7.09845C18.4338 6.78222 17.1278 6.62025 15.6521 6.62025C12.5977 6.62025 10.5795 7.21157 9.48945 8.43535C8.5639 9.50488 8.01885 10.8392 7.91087 12.3329C7.91087 12.6543 7.63835 12.8677 7.30927 12.8677L0.658168 12.9757C0.500177 12.9764 0.348309 12.9146 0.235632 12.8039C0.122956 12.6931 0.0585941 12.5423 0.0565613 12.3844V10.8418C0.0565613 9.3429 0.331655 7.95458 0.930691 6.62025C1.5323 5.28334 2.46042 4.16497 3.71248 3.20086C4.96711 2.24189 6.60482 1.44231 8.56647 0.907552C10.4767 0.26481 12.8214 0 15.5466 0H15.5415Z" fill="#0A3871"/>
+</svg> */
+
+:root {
+    --blue-100: #F3F5FC;
+    --blue-200:#EFF1FA;
+    --blue-300: #E9ECF8;
+    --blue-400:#AAB2D5;
+    --blue-500:#757FB2;
+
+    --dark-blue-100:#609ED4;
+    --dark-blue-200:#356EA9;
+    --dark-blue-300:#0A3871;
+    --dark-blue-400:#072B61;
+    --dark-blue-500:#052051;
+
+    --gray-100: #CED4DA;
+    --gray-200:#ADB5BD;
+    --gray-300: #868E96;
+    --gray-400:#495057;
+    --gray-500:#343A40;
+
+    --fuente-inter: 'Inter' , sans-serif;
+}
+
+/* * {
+    padding: 0;
+    margin:0;
+} */
+
+body{
+    display: flex;
+
+
+    width: auto;
+    height: auto;
+    /* margin-top: 622px;
+    margin-left: -2277px; */
+    gap: 0px;
+    opacity: 0px;
+
+    /* box-sizing: border-box; */
+    background-color: var(--blue-100);
+    
+}
+
+.desktop1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/* logo alura */
+
+.desktop1__header{
+    width: Fixed (120px)px;
+    height: Fixed (48px)px;
+    margin-top: 40px;
+    margin-left: 84px;
+    gap: 40px;
+    opacity: 0px;
+}
+
+/* textarea  */
+
+#textarea {
+    display: block;
+    background-color: var(--blue-100);
+    overflow:hidden;
+    border: none;
+    outline: none; 
+
+    width: 577px;
+    height: 350px;
+    margin-top: 80px;
+    margin-left: 240px;
+    gap: 0px;
+    opacity: 0px;
+
+    color:var(--dark-blue-300);
+    font-family: var(--fuente-inter);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    
+}
+
+/* frame 1 exclamacion y advertencia */
+
+.desktop1__frame1{
+    display: flex;
+    
+    width: Hug (229px)px;
+    height: Hug (18px)px;
+    margin-top: 298px;
+    margin-left: 240px;
+    gap: 8px;
+    opacity: 0px;
+    
+}
+
+.desktop1__frame1__texto{
+    width: 205px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0.8px;
+
+    color: var(--gray-400);
+    font-family: var(--fuente-inter);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+
+}
+
+
+
+/* frame 3 botones encr y desenc */
+
+.desktop1__frame3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: Fixed (680px)px;
+    height: Hug (67px)px;
+    margin-top: 16px;
+    margin-left: 240px;
+    gap: 24px;
+    opacity: 0px;
+}
+
+/* FRAME 3 : botones de encriptar y desencriptar */
+
+.desktop1__frame3__boton{
+    width: Fixed (328px);
+    height: Hug (67px);
+    border-radius:24px ;
+    padding:24px;
+    gap:8px; 
+}
+
+.boton__encr{
+    background-color: var(--dark-blue-300);
+}
+
+.boton__desencr{
+    background-color: var(--blue-300); 
+    border: 1px solid #0A3871
+}
+
+.desktop1__frame3__boton__texto{
+    font-family: var(--fuente-inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    margin: 0px;
+    width: 280px;
+    height: 19px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.texto__boton__encr{
+    color: white ;
+}
+
+.texto__boton__desencr{
+    color: var(--dark-blue-300) ;
+}
+
+
+/* seccion rectangulo muñeco */
+
+.desktop1__rectangulo{
+    
+    /* display: none; */
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    
+    width: 400px;
+    height: 944px;
+    margin-top: 40px;
+    margin-left: 80px;
+    gap: 0px;
+    border-radius: 32px;
+    opacity: 0px;
+
+    box-shadow: 0px 24px 32px -8px #00000014;
+
+}
+
+/* frame 5 - textodel muñeco rectangulo */
+
+.desktop1__rectangulo__frame5{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+    justify-content: center;
+
+    width: Fixed (336px)px;
+    height: Hug (122px)px;
+    /* margin-top: 32px;
+    margin-left: 32px; */
+    
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.desktop1__rectangulo__frame5__texto_1{
+    width: 336px;
+    height: 58px;
+    gap: 0px;
+    margin: 0px;
+    opacity: 0px;
+
+    font-family: var(--fuente-inter);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+
+    color: var(--gray-500);
+}
+
+.desktop1__rectangulo__frame5__texto_2{
+    width: 336px;
+    height: 48px;
+    gap: 0px;
+    margin: 0px;
+    opacity: 0px;
+
+    font-family: var(--fuente-inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+    color:var(--gray-400);
+}
+
+
+
+
+
+
+/* DESKTOP 2 - al presional el boton deencriptado */
+
+.desktop2__rectangulo{
+    
+    
+    display: none;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    
+    width: 400px;
+    height: 944px;
+    margin-top: 40px;
+    margin-left: 80px;
+    gap: 32px;
+    border-radius: 32px;
+    opacity: 0px;
+
+    box-shadow: 0px 24px 32px -8px #00000014;
+}
+
+.desktop2__textarea{
+    display: block;
+    background-color: white;
+    overflow: hidden;
+    border: none;
+    outline: none; 
+
+    width: 336px;
+    height: 781px;
+    margin-top: 32px;
+    margin-left: 32px;
+    gap: 0px;
+    opacity: 0px;
+
+    color:var(--gray-400);
+    font-family: var(--fuente-inter);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+
+.desktop2__rectangulo__boton__copiar{
+
+    /* display:none; */
+    
+    background-color: white;
+    
+    margin-bottom: 32px;
+    
+    width: Fixed (328px);
+    height: Hug (67px);
+    border-radius:24px ;
+    padding:24px;
+    gap:0px; 
+    border: 1px solid #0A3871
+
+}
+
+.desktop2__rectangulo__boton__copiar__texto{
+
+    font-family: var(--fuente-inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    margin: 0px;
+    width: 288px;
+    height: 19px;
+    gap: 0px;
+    opacity: 0px;
+    color: var(--dark-blue-300);
+}
+
+
+@media (max-width: 1200px){
+    body{
+        display: flex;
+        flex-direction: column;
+        height: 1174px;        
+    }    
+    /* logo alura */
+    .desktop1__header{
+        width: Fixed (31.09px)px;
+        height: Fixed (50.58px)px;
+        margin-top: 73.42px;
+        margin-left: 40px;
+        gap: 40px;
+        opacity: 0px;
+    } 
+    /* textarea  */
+    
+    #textarea {
+         
+        width: 688px; 
+        height: 350px;
+        margin-top: 116px;
+        margin-left: 40px;
+        text-align: left;
+    }
+    
+    /* frame 1 exclamacion y advertencia */
+    
+    .desktop1__frame1{
+        width: Hug (229px)px;
+        height: Hug (18px)px;
+        margin-top: 246px;
+        margin-left: 40px;
+    }    
+    /* frame 3 botones encr y desenc */
+    
+    .desktop1__frame3{
+        width: Fixed (680px)px;
+        height: Hug (67px)px;
+        margin-top: 16px;
+        margin-left: 40px;
+       
+    }
+    
+    /* seccion rectangulo muñeco */
+    
+    .desktop1__rectangulo{
+
+        width: 688px;
+        height: 133px;
+        margin-top: 64px;
+        margin-left: 40px;
+        gap: 32px;        
+    }
+
+    .desktop1__rectangulo__muneco{
+        display: none;
+    }
+    
+    /* frame 5 - textodel muñeco rectangulo */
+    
+    .desktop1__rectangulo__frame5{
+        /* width: Fill (624px)px; */
+        width: auto;
+        height: Hug (69px)px; 
+        gap: 16px;
+        
+    }
+    
+    .desktop1__rectangulo__frame5__texto_1{
+        width: 624px;
+        height: 29px;
+    }
+    
+    .desktop1__rectangulo__frame5__texto_2{
+        width: 624px;
+        height: 24px;
+    }
+    
+    /* DESKTOP 2 - al presional el boton deencriptado */
+    
+    .desktop2__rectangulo{
+                
+            width: 688px;
+            height: 343px;
+            margin-top: 64px;
+            margin-left: 40px;
+    }
+    
+    .desktop2__textarea{
+     
+        width: 624px;
+        height: 180px;
+        margin-top: 32px;
+        margin-left: 32px;
+    
+        color:var(--gray-400);
+        line-height: 150%;
+    }
+    
+    .desktop2__rectangulo__boton__copiar{
+    
+        width: Fill (624px);
+        height: Hug (67px);
+        padding:24px;           
+    }
+    
+    .desktop2__rectangulo__boton__copiar__texto{
+        
+        line-height: 19px;
+        width: 576px;
+        height: 19px;
+    }   
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+
+    body{
+        display: flex;
+        height: 933;
+    }
+    
+    /* logo alura */
+    
+    .desktop1__header{
+        width: Fixed (375px)px;
+        height: Fixed (96px)px;
+        margin-top: 24px;
+        margin-left: 16px;
+        gap: 40px;
+        opacity: 0px;
+    }
+    
+    /* textarea  */
+    
+    #textarea {
+        
+        justify-content: center;
+        width: 343px;
+        height: 100px;
+        margin-top: 56px;
+        margin-left: 16px;
+        line-height: 150%;
+        
+    }
+    
+    /* frame 1 exclamacion y advertencia */
+    
+    .desktop1__frame1{
+        
+        margin-top: 251px;
+        margin-left: 16px;
+        
+    }
+    
+    .desktop1__frame1__texto{
+    
+        line-height: 150%;
+    
+    }
+    
+    /* frame 3 botones encr y desenc */
+    
+    .desktop1__frame3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        width: 100%;
+        height: 158px;
+        margin-top: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        gap: 24px;
+       
+    }
+    
+    /* FRAME 3 : botones de encriptar y desencriptar */
+    
+    .desktop1__frame3__boton{
+        width: Fill (343px);
+        height: Hug (67px);
+
+    }
+    
+    
+    .desktop1__frame3__boton__texto{
+
+        margin: 0px;
+        width: Fill(229px)px;
+        height: Hug(19px)px;
+      
+    }
+    
+    /* seccion rectangulo muñeco */
+    
+    .desktop1__rectangulo{
+        width: auto;
+        height: 186px;
+        margin-top: 64px;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        
+    }
+    
+    /* frame 5 - textodel muñeco rectangulo */
+    
+    .desktop1__rectangulo__frame5{
+        
+        width: 263px;
+        height: 122px;
+       
+    }
+    
+    .desktop1__rectangulo__frame5__texto_1{
+        width: 263px;
+       
+        line-height: 120%;
+       
+    }
+    
+    .desktop1__rectangulo__frame5__texto_2{
+        width: 263px;
+       margin-top: 16px; 
+        line-height: 150%;
+        
+    }
+    
+    .desktop1__rectangulo__muneco{
+        display: none;
+    }
+
+    /* DESKTOP 2 - al presional el boton deencriptado */
+    
+.desktop2__rectangulo{
+                
+        width: auto;
+        height: Hug(180px);
+        margin-top: 64px;
+}
+
+.desktop2__textarea{
+ 
+    width: 279px;
+    height: Hug(180px)px;
+}
+
+.desktop2__rectangulo__boton__copiar{
+
+    width: Fill (279px);
+    height: Hug (67px);
+    padding:24px;           
+}
+
+.desktop2__rectangulo__boton__copiar__texto{
+    
+    line-height: 19px;
+    width: 231px;
+    height: 19px;
+}   
+}
+

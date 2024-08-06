@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encriptador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+   
+   
+    <main class="desktop1">
+         
+        <header class="desktop1__header">
+            <img class="desktop1__header__logo" src="./assets/logo-vector.svg" alt="" srcset="">
+        </header>
+        
+        <textarea class="desktop1__textarea" id="textarea" placeholder="Ingrese el texto aquí" name="ingrese el texto" rows="4" cols="50"></textarea>
+        
+            
+        <div class="desktop1__frame1">
+            <img class="desktop1__frame1__logo" src="./assets/exclamation-circle-fill.svg" alt="" srcset="">
+            <p class="desktop1__frame1__texto">Solo letras minúsculas y sin acentos</p>
+        </div>
+
+        <div class="desktop1__frame3">
+            <button onclick="encriptarTexto()" class="desktop1__frame3__boton boton__encr" type="button">
+                <p class="desktop1__frame3__boton__texto texto__boton__encr">Encriptar</p>
+            </button>
+            <button onclick="desencriptarTexto()" class="desktop1__frame3__boton boton__desencr" type="button">
+                <p class="desktop1__frame3__boton__texto texto__boton__desencr">Desencriptar</p>
+            </button>   
+        </div>
+</main>
+
+<section class="desktop1__rectangulo" id="desktop1">
+    <img class="desktop1__rectangulo__muneco" src="./assets/Muñeco.png" alt="" srcset="">
+    <div class="desktop1__rectangulo__frame5">
+        <p class="desktop1__rectangulo__frame5__texto_1">Ningún mensaje fue encontrado</p>
+        <p class="desktop1__rectangulo__frame5__texto_2">Ingresa el texto que desees encriptar o desencriptar.</p>
+    </div>
+ </section>
+
+ <!-- esta seccion es visible al clickear el boton de encriptar -->
+ <section  class="desktop2__rectangulo" id="desktop2">
+    <textarea class="desktop2__textarea" id="textarea__dos" placeholder="texto cambiado" name="texto cambiado" rows="4" cols="50"></textarea>
+    <button class="desktop2__rectangulo__boton__copiar" type="button">
+        <p class="desktop2__rectangulo__boton__copiar__texto">Copiar</p>
+    </button>
+ </section>
+
+   
+</body>
+    <script src="app.js"></script>
+</html>
