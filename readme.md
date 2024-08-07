@@ -82,7 +82,28 @@ async function escribirClipboard(texto){
 
 ```
 
+## tamanos de pantalla (responsividad y media queries)
+
+* para pantallas de hasta 768px de ancho 
+
+```css
+
+@media (max-width: 768px)
+
+```
+
+* para pantallas desde 768px hasta 1200px de ancho 
+
+```css
+
+@media (max-width: 1200px)
+
+```
+
+
 ## Variables de Entorno (.Env)
 
+URL de GitHub
 
+> https://github.com/correoCappelli/Encriptador_De_Texto---ONE-ALURA-ORACLE.git
 
